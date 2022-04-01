@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "573318709192",
+    "project_id": "fabniepartner",
+    "storage_bucket": "fabniepartner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573318709192:android:a5cab80f6ae334a57c8afd",
+        "android_client_info": {
+          "package_name": "com.fabnie.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573318709192-pmcasmnia9cm9csds3masabqdtcpt4nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOTbbmhU_1bHwpsg-E5U2AQLczRLTcJmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573318709192-pmcasmnia9cm9csds3masabqdtcpt4nk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573318709192-6g1kuq9aib3ss0erqqoqpl75m4ij5fq2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.CIPL.Fabnie-Partner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
