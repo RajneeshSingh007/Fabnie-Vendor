@@ -29,6 +29,7 @@ constructor(private val apiService: ApiService) {
             if (result.body() != null) {
                 val responseModel: Otp = result.body() as Otp
                 if (responseModel.success) {
+                    Log.d("[OTP]", responseModel.otp)
                     otpFlowData.emit(Response.Success(data = responseModel))
                 } else {
                     otpFlowData.emit(Response.Error(error = responseModel.message))

@@ -121,16 +121,16 @@ fun OTPScreen(navController: NavHostController) {
                         fontFamily = FontFamily(fonts = GothamBook)
                     )
                 ) {
-                    append("Enter the 4 digit One Time Password (OTP)")
+                    append("Enter mobile number to get OTP")
                 }
-                withStyle(
-                    style = SpanStyle(
-                        color = Color.Black,
-                        fontFamily = FontFamily(fonts = GothamBook)
-                    )
-                ) {
-                    append(" sent to your Mobile Number")
-                }
+//                withStyle(
+//                    style = SpanStyle(
+//                        color = Color.Black,
+//                        fontFamily = FontFamily(fonts = GothamBook)
+//                    )
+//                ) {
+//                    append(" sent to your Mobile Number")
+//                }
             }
         )
         Box(

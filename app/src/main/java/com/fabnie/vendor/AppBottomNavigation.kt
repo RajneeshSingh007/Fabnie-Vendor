@@ -1,29 +1,15 @@
 package com.fabnie.vendor
 
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavDestination
-import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import com.fabnie.vendor.screen.*
-import com.fabnie.vendor.viewmodel.LoginViewModel
-import com.fabnie.vendor.viewmodel.OrderStatusScreen
+import com.fabnie.vendor.screen.OrderStatusScreen
 import com.fabnie.vendor.viewmodel.ProductViewModel
 
 @OptIn(ExperimentalMaterialApi::class)
